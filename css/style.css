@@ -185,3 +185,18 @@ footer .social-icons{
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.city-img{
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
+
+#sports-data {
+  text-align: center;
+  margin: 20px;
+}
+#sports-data img {
+  width: 150px;
+  margin-top: 10px;
+}
