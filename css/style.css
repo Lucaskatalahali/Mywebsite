@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  width: 100%;
+  max-width: 100%;
 }
 
 header{
@@ -128,48 +128,36 @@ img.custom-img {
   font-weight: bold;
 }
 
-footer{
-  /* Linha superior */
-  background: #571a1ae0; /* Cor de fundo do footer */
-  padding-top: 20px;
+footer {
+  background-color: #212529; /* escuro neutro para fundo */
+  color: #f8f9fa; /* texto claro */
 }
 
-footer ul {
+.social-icons {
   list-style: none;
   padding: 0;
-  text-align: left;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-footer ul li {
-  margin: 8px 0;
+.social-icons a {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
 }
 
-footer ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-footer h4 {
-  text-align:left;
-  font-weight:normal;
-  margin-bottom: 25px;
-}
-
-footer .bi {
-  font-size: 20px;
-  margin: 0 8px;
-  transition: color 0.3s;
+.social-icons a:hover {
+  color: #0d6efd; /* azul bootstrap */
 }
 
 footer p {
-  margin-top: 16px;
-  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #adb5bd; /* cinza claro para diferenciar do título */
 }
-footer .social-icons{
-  display: flex;
-}
+
 .carousel-item img {
     width: 100%;
     height: 400px; /* Ajuste conforme necessário */
