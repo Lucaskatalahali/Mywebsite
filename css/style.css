@@ -35,8 +35,8 @@ header .navbar-brand:hover{
 header h1{
   font-weight: normal;
   font-family: 'Courier New', Courier, monospace;
-    margin-top: 45px;
-  }
+  margin-top: 45px;
+}
 header p {
   font-weight: normal;
   font-size: 1.5rem;
@@ -44,9 +44,8 @@ header p {
 }
 
 .navbar-menu li{
-    margin: 13px;    
-
-  }
+  margin: 13px;    
+}
 header .social-icons{
   display: flex;
   text-decoration: none; 
@@ -128,6 +127,13 @@ img.custom-img {
   font-weight: bold;
 }
 
+.poem-link{
+  text-decoration: none;
+}
+.poem-link:hover{
+  text-decoration: underline;
+}
+
 footer {
   background-color: #212529; /* escuro neutro para fundo */
   color: #f8f9fa; /* texto claro */
@@ -159,9 +165,9 @@ footer p {
 }
 
 .carousel-item img {
-    width: 100%;
-    height: 400px; /* Ajuste conforme necessário */
-    object-fit: cover;
+  width: 100%;
+  height: 400px; /* Ajuste conforme necessário */
+  object-fit: cover;
 }
 
 .carousel-img {
