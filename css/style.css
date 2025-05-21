@@ -71,6 +71,17 @@ header .bi{
   color: white;
 }
 
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+  background-color: white;
+  border-radius: 8px;
+  z-index: 9999;
+}
+ .navbar-collapse .nav-link {
+    color: black; /* ou qualquer cor escura */
+  }
+}
+
 img.custom-img {
   width: 100%;
   height: 175px;
