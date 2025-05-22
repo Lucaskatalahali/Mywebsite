@@ -12,10 +12,40 @@ header{
   color: white;
   /*overflow-x: hidden;*/
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(51, 4, 4, 0.47)),  url(../images/background.jpg);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.no-background{
+  height: 290px;
+}
+
+header.no-background .navbar-menu .nav-link,
+header.no-background .bi {
+  color: black;
+}
+
+header.no-background .navbar-menu .nav-link:hover {
+  border-radius: 5px;
+  background-color: #571a1ae2;
+  color: white;
+}
+
+header.no-background .navbar-brand{
+  background-color: #571a1ae2;
+}
+
+.no-background p{
+  color: #571a1ad5;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.no-background h1{
+  color: #571a1ac5;
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
 header .navbar-brand{
@@ -25,7 +55,7 @@ header .navbar-brand{
   padding: 8px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.6rem;  
-  background-color: #571a1abf;      
+  background-color: #571a1ae2;      
 }
 
 header .navbar-brand:hover{
@@ -48,7 +78,7 @@ header p {
 }
 header .social-icons{
   display: flex;
-  text-decoration: none; 
+  text-decoration: none;
   list-style: none;
   gap: 18px; 
   font-size: 19px;
@@ -67,7 +97,7 @@ header .bi{
 
 .navbar-menu .nav-link:hover{
   border-radius: 5px;
-  background-color: #571a1ac4;
+  background-color: #571a1ae2;
   color: white;
 }
 
@@ -79,6 +109,9 @@ header .bi{
 }
  .navbar-collapse .nav-link {
     color: black; /* ou qualquer cor escura */
+  }
+  .navbar-collapse i.bi {
+    color: black; /* ícones */
   }
 }
 
