@@ -20,7 +20,7 @@ header{
 
 .no-background{
   height: auto;
-  background-image: linear-gradient(rgba(10, 0, 0, 0.600), rgba(48, 4, 4, 0.922)), url();
+  background-image: linear-gradient(rgba(14, 0, 0, 0.700), rgba(48, 4, 4, 0.909)), url();
 }
 
 header.no-background .navbar-menu .nav-link,
