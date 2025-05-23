@@ -8,7 +8,7 @@ html, body {
 }
 
 header{
-  height: 350px;
+  height: auto;
   color: white;
   /*overflow-x: hidden;*/
   text-align: center;
@@ -19,7 +19,7 @@ header{
 }
 
 .no-background{
-  height: 290px;
+  height: auto;
 }
 
 header.no-background .navbar-menu .nav-link,
