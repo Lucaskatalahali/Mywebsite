@@ -30,12 +30,11 @@ header.no-background .bi {
 
 .no-background p{
   color: white;
-  font-weight: bold;
   font-size: 1.6rem;
 }
 .no-background h1{
   color: white;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 3.5rem;
 }
 
@@ -173,7 +172,7 @@ img.custom-img {
 }
 
 footer {
-  background-color: #212529; /* escuro neutro para fundo */
+   background-image: linear-gradient(rgba(14, 0, 0, 0.700), rgba(48, 4, 4, 0.909)), url();
   color: #f8f9fa; /* texto claro */
 }
 
